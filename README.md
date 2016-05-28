@@ -1,4 +1,4 @@
-# Docker image for mpm MPM
+# Docker image for FE / MPM
 > Krishna Kumar
 
 [Docker image](https://hub.docker.com/r/cbgeo/mpm/)
