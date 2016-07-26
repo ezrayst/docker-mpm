@@ -1,10 +1,10 @@
 # Docker image for FE / MPM
 > Krishna Kumar
 
-[Docker image](https://hub.docker.com/r/cbgeo/mpm/)
+[Docker image](https://quay.io/repository/cbgeo/mpm)
+[![Docker Repository on Quay](https://quay.io/repository/cbgeo/mpm/status "Docker Repository on Quay")](https://quay.io/repository/cbgeo/mpm)
 
 ## Tools
-
 * Autotools
 * Clang
 * Clangformat
@@ -17,8 +17,8 @@
 * `docker history` will show you the effect of each command has on the overall size of the file.
 
 # Use the docker image
-
-* The docker image can be used directly from the Docker Hub
+* The docker image can be used directly from the Quay.io or Docker Hub
+* Pull the docker image `docker pull quay.io/cbgeo/mpm`
 * To launch the `cbgeo/ca-abm`  docker container, run `docker run -ti cbgeo/mpm:latest /bin/bash`
 
 # To login as root
