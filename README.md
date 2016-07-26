@@ -3,6 +3,7 @@
 
 [Docker image](https://quay.io/repository/cbgeo/mpm)
 [![Docker Repository on Quay](https://quay.io/repository/cbgeo/mpm/status "Docker Repository on Quay")](https://quay.io/repository/cbgeo/mpm)
+[![Build status](https://api.travis-ci.org/cb-geo/docker-mpm.svg)](https://api.travis-ci.org/cb-geo/docker-mpm.svg)
 
 ## Tools
 * Autotools
@@ -12,7 +13,6 @@
 * Vim
 
 # Creating an image from the docker file
-
 * To build an image from docker file run as root `docker build -t "cbgeo/mpm" /path/to/Dockerfile`
 * `docker history` will show you the effect of each command has on the overall size of the file.
 
