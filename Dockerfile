@@ -11,7 +11,7 @@ RUN dnf update -y
 RUN dnf remove -y vim-minimal
 
 # Install Git, GCC, Clang, Autotools and VIM
-RUN dnf install -y git gcc gcc-c++ automake clang vim make eigen3-devel
+RUN dnf install -y automake clang cppcheck eigen3-devel gcc gcc-c++ git make valgrind vim
 
 # Create a user cbgeo
 RUN useradd cbgeo
