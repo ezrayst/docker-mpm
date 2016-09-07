@@ -14,4 +14,5 @@ script:
     - echo "Built success"
 
 notifications:
-  slack: cb-geo:0N3fJy823MGsJvcDB91m4p8H
+  slack: cb-geo:0N3fJy823MGsJvcDB91m4p8H#felib
+  slack: cb-geo:0N3fJy823MGsJvcDB91m4p8H#builds
