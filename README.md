@@ -1,15 +1,14 @@
 # Docker image for FE / MPM
 > Krishna Kumar
 
-[![Docker image](https://img.shields.io/badge/docker--image-cbgeo--mpm-ff69b4.svg)](https://quay.io/repository/cbgeo/mpm)
-[![Docker Repository on Quay](https://quay.io/repository/cbgeo/mpm/status "Docker Repository on Quay")](https://quay.io/repository/cbgeo/mpm)
-[![Build status](https://api.travis-ci.org/cb-geo/docker-mpm.svg)](https://api.travis-ci.org/cb-geo/docker-mpm.svg)
 [![Docker hub](https://img.shields.io/badge/docker--hub-cbgeo--mpm-ff69b4.svg)](https://hub.docker.com/r/cbgeo/mpm)
+[![Quay image](https://img.shields.io/badge/quay--image-cbgeo--mpm-ff69b4.svg)](https://quay.io/repository/cbgeo/mpm)
+[![Build status](https://api.travis-ci.org/cb-geo/docker-mpm.svg)](https://api.travis-ci.org/cb-geo/docker-mpm.svg)
+[![](https://images.microbadger.com/badges/image/cbgeo/mpm.svg)](http://microbadger.com/images/cbgeo/mpm)
 
 ## Tools
-* Autotools
+* CMake
 * Clang
-* Clangformat
 * GCC 6
 * Vim
 * Eigen3
